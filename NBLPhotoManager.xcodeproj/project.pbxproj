@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77B8A7D1DC71AE600B31922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8A7C1DC71AE600B31922 /* main.m */; };
+		B77B8A801DC71AE600B31922 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8A7F1DC71AE600B31922 /* AppDelegate.m */; };
+		B77B8A831DC71AE600B31922 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8A821DC71AE600B31922 /* ViewController.m */; };
+		B77B8A861DC71AE600B31922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77B8A841DC71AE600B31922 /* Main.storyboard */; };
+		B77B8A881DC71AE600B31922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77B8A871DC71AE600B31922 /* Assets.xcassets */; };
+		B77B8A8B1DC71AE600B31922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77B8A891DC71AE600B31922 /* LaunchScreen.storyboard */; };
+		B77B8A961DC71AE700B31922 /* NBLPhotoManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8A951DC71AE700B31922 /* NBLPhotoManagerTests.m */; };
+		B77B8AA11DC71AE700B31922 /* NBLPhotoManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AA01DC71AE700B31922 /* NBLPhotoManagerUITests.m */; };
+		B77B8AC41DC71BED00B31922 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AB01DC71BED00B31922 /* DACircularProgressView.m */; };
+		B77B8AC51DC71BED00B31922 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AB21DC71BED00B31922 /* MWCaptionView.m */; };
+		B77B8AC61DC71BED00B31922 /* MWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AB51DC71BED00B31922 /* MWGridCell.m */; };
+		B77B8AC71DC71BED00B31922 /* MWGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AB71DC71BED00B31922 /* MWGridViewController.m */; };
+		B77B8AC81DC71BED00B31922 /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AB91DC71BED00B31922 /* MWPhoto.m */; };
+		B77B8AC91DC71BED00B31922 /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8ABB1DC71BED00B31922 /* MWPhotoBrowser.m */; };
+		B77B8ACA1DC71BED00B31922 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8ABF1DC71BED00B31922 /* MWTapDetectingImageView.m */; };
+		B77B8ACB1DC71BED00B31922 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AC11DC71BED00B31922 /* MWTapDetectingView.m */; };
+		B77B8ACC1DC71BED00B31922 /* MWZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B8AC31DC71BED00B31922 /* MWZoomingScrollView.m */; };
+		B79042971DC723BD00109687 /* NBLPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B79042901DC723BD00109687 /* NBLPhotoManager.m */; };
+		B79042981DC723BD00109687 /* NBLPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B79042921DC723BD00109687 /* NBLPhotoListCell.m */; };
+		B79042991DC723BD00109687 /* NBLPhotoListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B79042941DC723BD00109687 /* NBLPhotoListInfo.m */; };
+		B790429A1DC723BD00109687 /* NBLPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79042961DC723BD00109687 /* NBLPhotoListViewController.m */; };
+		B79042DC1DC7434000109687 /* NBLImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B79042DB1DC7434000109687 /* NBLImageCell.m */; };
+		D36F7BCA61E10DB0C047C3E3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A81337240831EEDF500BE6F6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B77B8A921DC71AE700B31922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77B8A701DC71AE600B31922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77B8A771DC71AE600B31922;
+			remoteInfo = NBLPhotoManager;
+		};
+		B77B8A9D1DC71AE700B31922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77B8A701DC71AE600B31922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77B8A771DC71AE600B31922;
+			remoteInfo = NBLPhotoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E486642A2B9B21B8971B6FE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		528A34A172B7DB127B12BE66 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A81337240831EEDF500BE6F6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77B8A781DC71AE600B31922 /* NBLPhotoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBLPhotoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77B8A7C1DC71AE600B31922 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B77B8A7E1DC71AE600B31922 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B77B8A7F1DC71AE600B31922 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B77B8A811DC71AE600B31922 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B77B8A821DC71AE600B31922 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B77B8A851DC71AE600B31922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B77B8A871DC71AE600B31922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B77B8A8A1DC71AE600B31922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B77B8A8C1DC71AE600B31922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77B8A911DC71AE700B31922 /* NBLPhotoManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBLPhotoManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77B8A951DC71AE700B31922 /* NBLPhotoManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLPhotoManagerTests.m; sourceTree = "<group>"; };
+		B77B8A971DC71AE700B31922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77B8A9C1DC71AE700B31922 /* NBLPhotoManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBLPhotoManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77B8AA01DC71AE700B31922 /* NBLPhotoManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLPhotoManagerUITests.m; sourceTree = "<group>"; };
+		B77B8AA21DC71AE700B31922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77B8AAF1DC71BED00B31922 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		B77B8AB01DC71BED00B31922 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		B77B8AB11DC71BED00B31922 /* MWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCaptionView.h; sourceTree = "<group>"; };
+		B77B8AB21DC71BED00B31922 /* MWCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWCaptionView.m; sourceTree = "<group>"; };
+		B77B8AB31DC71BED00B31922 /* MWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCommon.h; sourceTree = "<group>"; };
+		B77B8AB41DC71BED00B31922 /* MWGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGridCell.h; sourceTree = "<group>"; };
+		B77B8AB51DC71BED00B31922 /* MWGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGridCell.m; sourceTree = "<group>"; };
+		B77B8AB61DC71BED00B31922 /* MWGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGridViewController.h; sourceTree = "<group>"; };
+		B77B8AB71DC71BED00B31922 /* MWGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGridViewController.m; sourceTree = "<group>"; };
+		B77B8AB81DC71BED00B31922 /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
+		B77B8AB91DC71BED00B31922 /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
+		B77B8ABA1DC71BED00B31922 /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
+		B77B8ABB1DC71BED00B31922 /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowser.m; sourceTree = "<group>"; };
+		B77B8ABC1DC71BED00B31922 /* MWPhotoBrowserPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserPrivate.h; sourceTree = "<group>"; };
+		B77B8ABD1DC71BED00B31922 /* MWPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoProtocol.h; sourceTree = "<group>"; };
+		B77B8ABE1DC71BED00B31922 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
+		B77B8ABF1DC71BED00B31922 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
+		B77B8AC01DC71BED00B31922 /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingView.h; sourceTree = "<group>"; };
+		B77B8AC11DC71BED00B31922 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
+		B77B8AC21DC71BED00B31922 /* MWZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWZoomingScrollView.h; sourceTree = "<group>"; };
+		B77B8AC31DC71BED00B31922 /* MWZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWZoomingScrollView.m; sourceTree = "<group>"; };
+		B790428F1DC723BD00109687 /* NBLPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLPhotoManager.h; sourceTree = "<group>"; };
+		B79042901DC723BD00109687 /* NBLPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLPhotoManager.m; sourceTree = "<group>"; };
+		B79042911DC723BD00109687 /* NBLPhotoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLPhotoListCell.h; sourceTree = "<group>"; };
+		B79042921DC723BD00109687 /* NBLPhotoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLPhotoListCell.m; sourceTree = "<group>"; };
+		B79042931DC723BD00109687 /* NBLPhotoListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLPhotoListInfo.h; sourceTree = "<group>"; };
+		B79042941DC723BD00109687 /* NBLPhotoListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLPhotoListInfo.m; sourceTree = "<group>"; };
+		B79042951DC723BD00109687 /* NBLPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLPhotoListViewController.h; sourceTree = "<group>"; };
+		B79042961DC723BD00109687 /* NBLPhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLPhotoListViewController.m; sourceTree = "<group>"; };
+		B79042DA1DC7434000109687 /* NBLImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLImageCell.h; sourceTree = "<group>"; };
+		B79042DB1DC7434000109687 /* NBLImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLImageCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77B8A751DC71AE600B31922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36F7BCA61E10DB0C047C3E3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77B8A8E1DC71AE700B31922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77B8A991DC71AE700B31922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF7FA703E5D9105E92D3E28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E486642A2B9B21B8971B6FE /* Pods.debug.xcconfig */,
+				528A34A172B7DB127B12BE66 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B77B8A6F1DC71AE600B31922 = {
+			isa = PBXGroup;
+			children = (
+				B77B8A7A1DC71AE600B31922 /* NBLPhotoManager */,
+				B77B8A941DC71AE700B31922 /* NBLPhotoManagerTests */,
+				B77B8A9F1DC71AE700B31922 /* NBLPhotoManagerUITests */,
+				B77B8A791DC71AE600B31922 /* Products */,
+				9DF7FA703E5D9105E92D3E28 /* Pods */,
+				E00D6C36F90AE22ABA94B5BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B77B8A791DC71AE600B31922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B77B8A781DC71AE600B31922 /* NBLPhotoManager.app */,
+				B77B8A911DC71AE700B31922 /* NBLPhotoManagerTests.xctest */,
+				B77B8A9C1DC71AE700B31922 /* NBLPhotoManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77B8A7A1DC71AE600B31922 /* NBLPhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				B790428F1DC723BD00109687 /* NBLPhotoManager.h */,
+				B79042901DC723BD00109687 /* NBLPhotoManager.m */,
+				B79042911DC723BD00109687 /* NBLPhotoListCell.h */,
+				B79042921DC723BD00109687 /* NBLPhotoListCell.m */,
+				B79042931DC723BD00109687 /* NBLPhotoListInfo.h */,
+				B79042941DC723BD00109687 /* NBLPhotoListInfo.m */,
+				B79042951DC723BD00109687 /* NBLPhotoListViewController.h */,
+				B79042961DC723BD00109687 /* NBLPhotoListViewController.m */,
+				B77B8AAE1DC71BED00B31922 /* MWPhotoBrowser */,
+				B77B8A7E1DC71AE600B31922 /* AppDelegate.h */,
+				B77B8A7F1DC71AE600B31922 /* AppDelegate.m */,
+				B77B8A811DC71AE600B31922 /* ViewController.h */,
+				B77B8A821DC71AE600B31922 /* ViewController.m */,
+				B79042DA1DC7434000109687 /* NBLImageCell.h */,
+				B79042DB1DC7434000109687 /* NBLImageCell.m */,
+				B77B8A841DC71AE600B31922 /* Main.storyboard */,
+				B77B8A871DC71AE600B31922 /* Assets.xcassets */,
+				B77B8A891DC71AE600B31922 /* LaunchScreen.storyboard */,
+				B77B8A8C1DC71AE600B31922 /* Info.plist */,
+				B77B8A7B1DC71AE600B31922 /* Supporting Files */,
+			);
+			path = NBLPhotoManager;
+			sourceTree = "<group>";
+		};
+		B77B8A7B1DC71AE600B31922 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B77B8A7C1DC71AE600B31922 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B77B8A941DC71AE700B31922 /* NBLPhotoManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B77B8A951DC71AE700B31922 /* NBLPhotoManagerTests.m */,
+				B77B8A971DC71AE700B31922 /* Info.plist */,
+			);
+			path = NBLPhotoManagerTests;
+			sourceTree = "<group>";
+		};
+		B77B8A9F1DC71AE700B31922 /* NBLPhotoManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B77B8AA01DC71AE700B31922 /* NBLPhotoManagerUITests.m */,
+				B77B8AA21DC71AE700B31922 /* Info.plist */,
+			);
+			path = NBLPhotoManagerUITests;
+			sourceTree = "<group>";
+		};
+		B77B8AAE1DC71BED00B31922 /* MWPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B77B8AAF1DC71BED00B31922 /* DACircularProgressView.h */,
+				B77B8AB01DC71BED00B31922 /* DACircularProgressView.m */,
+				B77B8AB11DC71BED00B31922 /* MWCaptionView.h */,
+				B77B8AB21DC71BED00B31922 /* MWCaptionView.m */,
+				B77B8AB31DC71BED00B31922 /* MWCommon.h */,
+				B77B8AB41DC71BED00B31922 /* MWGridCell.h */,
+				B77B8AB51DC71BED00B31922 /* MWGridCell.m */,
+				B77B8AB61DC71BED00B31922 /* MWGridViewController.h */,
+				B77B8AB71DC71BED00B31922 /* MWGridViewController.m */,
+				B77B8AB81DC71BED00B31922 /* MWPhoto.h */,
+				B77B8AB91DC71BED00B31922 /* MWPhoto.m */,
+				B77B8ABA1DC71BED00B31922 /* MWPhotoBrowser.h */,
+				B77B8ABB1DC71BED00B31922 /* MWPhotoBrowser.m */,
+				B77B8ABC1DC71BED00B31922 /* MWPhotoBrowserPrivate.h */,
+				B77B8ABD1DC71BED00B31922 /* MWPhotoProtocol.h */,
+				B77B8ABE1DC71BED00B31922 /* MWTapDetectingImageView.h */,
+				B77B8ABF1DC71BED00B31922 /* MWTapDetectingImageView.m */,
+				B77B8AC01DC71BED00B31922 /* MWTapDetectingView.h */,
+				B77B8AC11DC71BED00B31922 /* MWTapDetectingView.m */,
+				B77B8AC21DC71BED00B31922 /* MWZoomingScrollView.h */,
+				B77B8AC31DC71BED00B31922 /* MWZoomingScrollView.m */,
+			);
+			path = MWPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E00D6C36F90AE22ABA94B5BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81337240831EEDF500BE6F6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77B8A771DC71AE600B31922 /* NBLPhotoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77B8AA51DC71AE700B31922 /* Build configuration list for PBXNativeTarget "NBLPhotoManager" */;
+			buildPhases = (
+				F8A6404310AAA9C6DF18BBAB /* Check Pods Manifest.lock */,
+				B77B8A741DC71AE600B31922 /* Sources */,
+				B77B8A751DC71AE600B31922 /* Frameworks */,
+				B77B8A761DC71AE600B31922 /* Resources */,
+				696D9F2DEED2204201219E10 /* Embed Pods Frameworks */,
+				E4F82924E537DF1AFC754E23 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBLPhotoManager;
+			productName = NBLPhotoManager;
+			productReference = B77B8A781DC71AE600B31922 /* NBLPhotoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B77B8A901DC71AE700B31922 /* NBLPhotoManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77B8AA81DC71AE700B31922 /* Build configuration list for PBXNativeTarget "NBLPhotoManagerTests" */;
+			buildPhases = (
+				B77B8A8D1DC71AE700B31922 /* Sources */,
+				B77B8A8E1DC71AE700B31922 /* Frameworks */,
+				B77B8A8F1DC71AE700B31922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77B8A931DC71AE700B31922 /* PBXTargetDependency */,
+			);
+			name = NBLPhotoManagerTests;
+			productName = NBLPhotoManagerTests;
+			productReference = B77B8A911DC71AE700B31922 /* NBLPhotoManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B77B8A9B1DC71AE700B31922 /* NBLPhotoManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77B8AAB1DC71AE700B31922 /* Build configuration list for PBXNativeTarget "NBLPhotoManagerUITests" */;
+			buildPhases = (
+				B77B8A981DC71AE700B31922 /* Sources */,
+				B77B8A991DC71AE700B31922 /* Frameworks */,
+				B77B8A9A1DC71AE700B31922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77B8A9E1DC71AE700B31922 /* PBXTargetDependency */,
+			);
+			name = NBLPhotoManagerUITests;
+			productName = NBLPhotoManagerUITests;
+			productReference = B77B8A9C1DC71AE700B31922 /* NBLPhotoManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B77B8A701DC71AE600B31922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = neebel;
+				TargetAttributes = {
+					B77B8A771DC71AE600B31922 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDT3XK8GC5;
+						ProvisioningStyle = Automatic;
+					};
+					B77B8A901DC71AE700B31922 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDT3XK8GC5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B77B8A771DC71AE600B31922;
+					};
+					B77B8A9B1DC71AE700B31922 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDT3XK8GC5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B77B8A771DC71AE600B31922;
+					};
+				};
+			};
+			buildConfigurationList = B77B8A731DC71AE600B31922 /* Build configuration list for PBXProject "NBLPhotoManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B77B8A6F1DC71AE600B31922;
+			productRefGroup = B77B8A791DC71AE600B31922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77B8A771DC71AE600B31922 /* NBLPhotoManager */,
+				B77B8A901DC71AE700B31922 /* NBLPhotoManagerTests */,
+				B77B8A9B1DC71AE700B31922 /* NBLPhotoManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B77B8A761DC71AE600B31922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77B8A8B1DC71AE600B31922 /* LaunchScreen.storyboard in Resources */,
+				B77B8A881DC71AE600B31922 /* Assets.xcassets in Resources */,
+				B77B8A861DC71AE600B31922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77B8A8F1DC71AE700B31922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77B8A9A1DC71AE700B31922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		696D9F2DEED2204201219E10 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F82924E537DF1AFC754E23 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A6404310AAA9C6DF18BBAB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77B8A741DC71AE600B31922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77B8AC91DC71BED00B31922 /* MWPhotoBrowser.m in Sources */,
+				B79042971DC723BD00109687 /* NBLPhotoManager.m in Sources */,
+				B77B8A831DC71AE600B31922 /* ViewController.m in Sources */,
+				B790429A1DC723BD00109687 /* NBLPhotoListViewController.m in Sources */,
+				B77B8AC71DC71BED00B31922 /* MWGridViewController.m in Sources */,
+				B79042991DC723BD00109687 /* NBLPhotoListInfo.m in Sources */,
+				B77B8AC81DC71BED00B31922 /* MWPhoto.m in Sources */,
+				B77B8AC41DC71BED00B31922 /* DACircularProgressView.m in Sources */,
+				B77B8A801DC71AE600B31922 /* AppDelegate.m in Sources */,
+				B77B8AC61DC71BED00B31922 /* MWGridCell.m in Sources */,
+				B79042DC1DC7434000109687 /* NBLImageCell.m in Sources */,
+				B77B8ACB1DC71BED00B31922 /* MWTapDetectingView.m in Sources */,
+				B77B8A7D1DC71AE600B31922 /* main.m in Sources */,
+				B77B8ACC1DC71BED00B31922 /* MWZoomingScrollView.m in Sources */,
+				B77B8ACA1DC71BED00B31922 /* MWTapDetectingImageView.m in Sources */,
+				B79042981DC723BD00109687 /* NBLPhotoListCell.m in Sources */,
+				B77B8AC51DC71BED00B31922 /* MWCaptionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77B8A8D1DC71AE700B31922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77B8A961DC71AE700B31922 /* NBLPhotoManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77B8A981DC71AE700B31922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77B8AA11DC71AE700B31922 /* NBLPhotoManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B77B8A931DC71AE700B31922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77B8A771DC71AE600B31922 /* NBLPhotoManager */;
+			targetProxy = B77B8A921DC71AE700B31922 /* PBXContainerItemProxy */;
+		};
+		B77B8A9E1DC71AE700B31922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77B8A771DC71AE600B31922 /* NBLPhotoManager */;
+			targetProxy = B77B8A9D1DC71AE700B31922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B77B8A841DC71AE600B31922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B77B8A851DC71AE600B31922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B77B8A891DC71AE600B31922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B77B8A8A1DC71AE600B31922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B77B8AA31DC71AE700B31922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B77B8AA41DC71AE700B31922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B77B8AA61DC71AE700B31922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E486642A2B9B21B8971B6FE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDT3XK8GC5;
+				INFOPLIST_FILE = NBLPhotoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLPhotoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B77B8AA71DC71AE700B31922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528A34A172B7DB127B12BE66 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDT3XK8GC5;
+				INFOPLIST_FILE = NBLPhotoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLPhotoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B77B8AA91DC71AE700B31922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDT3XK8GC5;
+				INFOPLIST_FILE = NBLPhotoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLPhotoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBLPhotoManager.app/NBLPhotoManager";
+			};
+			name = Debug;
+		};
+		B77B8AAA1DC71AE700B31922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDT3XK8GC5;
+				INFOPLIST_FILE = NBLPhotoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLPhotoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBLPhotoManager.app/NBLPhotoManager";
+			};
+			name = Release;
+		};
+		B77B8AAC1DC71AE700B31922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PDT3XK8GC5;
+				INFOPLIST_FILE = NBLPhotoManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLPhotoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NBLPhotoManager;
+			};
+			name = Debug;
+		};
+		B77B8AAD1DC71AE700B31922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PDT3XK8GC5;
+				INFOPLIST_FILE = NBLPhotoManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLPhotoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NBLPhotoManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77B8A731DC71AE600B31922 /* Build configuration list for PBXProject "NBLPhotoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77B8AA31DC71AE700B31922 /* Debug */,
+				B77B8AA41DC71AE700B31922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77B8AA51DC71AE700B31922 /* Build configuration list for PBXNativeTarget "NBLPhotoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77B8AA61DC71AE700B31922 /* Debug */,
+				B77B8AA71DC71AE700B31922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77B8AA81DC71AE700B31922 /* Build configuration list for PBXNativeTarget "NBLPhotoManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77B8AA91DC71AE700B31922 /* Debug */,
+				B77B8AAA1DC71AE700B31922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77B8AAB1DC71AE700B31922 /* Build configuration list for PBXNativeTarget "NBLPhotoManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77B8AAC1DC71AE700B31922 /* Debug */,
+				B77B8AAD1DC71AE700B31922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B77B8A701DC71AE600B31922 /* Project object */;
+}
